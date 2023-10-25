@@ -1,0 +1,199 @@
+body {
+    font-size: 14px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    margin: 0 120px;
+}
+
+.header {
+    border-bottom: 2px solid rgb(231, 231, 231);
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    margin-left: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.header .nav ul li {
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    margin: 0 20px;
+    color: #333;
+}
+
+.header .nav ul li a.selected {
+    color: #f90;
+}
+
+main .filters {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+main .filters .filters-header {
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 10px;
+}
+
+main .filters .filters-header a {
+    color: rgb(153, 153, 153);
+    line-height: 30px;
+}
+
+main .filters .filters-header a:hover {
+    color: #6495ed;
+}
+
+main .filters .filters-header h2 {
+    float: left;
+    font-size: 24px;
+    margin: 5px 10px 5px 5px;
+}
+
+main .filters .filters-options {
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+main .filters .filters-options > div h3 {
+    float: left;
+    margin-right: 30px;
+    color: #999;
+}
+
+main .filters .filters-options > div h3:hover {
+    color: #6495ed;
+}
+
+main .filters .filters-options .filters-option {
+    margin-top: 20px;
+}
+
+main .filters .filters-options .selector-list li {
+    float: left;
+    margin-right: 36px;
+}
+
+main .filters .filters-options .selector-list li:hover {
+    color: #6495ed;
+    cursor: pointer;
+}
+
+main .filters .filters-options .selector-list li.selected {
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+main .movies {
+    margin-bottom: 35px;
+}
+
+main .movies ul li.movie {
+    float: left;
+    width: 157.875px;
+    margin: 30px 10px 0 10px;
+}
+
+main .movies ul li.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+main .movies ul li h4 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+main .movies ul li h5 {
+    color: #999;
+}
+
+main .movies ul li h5,
+main .movies ul li h4
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+main .movies ul li h4:hover {
+    color: #6495ed;
+}
+
+main .page-selector {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+main .page-selector ul {
+    display: inline-block;
+}
+
+main .page-selector ul li {
+    display: inline-block;
+}
+
+main .page-selector > a,
+main .page-selector ul li a {
+    background: #eeeeee;
+    padding: 8px 15px;
+    border-radius: 5px;
+    line-height: 20px;
+    margin: 0 5.5px;
+}
+
+main .page-selector ul li a.selected {
+    background: orange;
+    color: white;
+}
+
+main .page-selector a:hover {
+    color: #6495ed;
+}
+
+footer {
+    background: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    line-height: 30px;
+    font-family: "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a:hover {
+    color: #6495ed;
+}
+
+footer ul li::after {
+    content: "|";
+    margin: 0 8px;
+    color: #ccc;
+}
+
+footer ul li:last-child::after {
+    content: "";
+    margin: 0;
+}
+
+footer > * {
+    margin-bottom: 10px;
+}
