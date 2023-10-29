@@ -1,0 +1,148 @@
+body {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.panel {
+    width: 1000px;
+    height: 800px;
+
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+}
+
+.left, .right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.left {
+    background: url("../background.webp") no-repeat;
+    background-size: cover;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.35);
+}
+
+.right {
+    text-align: center;
+}
+
+.right .form {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    width: 350px;
+    height: 376px;
+}
+
+.right form h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.right form h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(113, 113, 122);
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.right .form form input,
+.right .form form button {
+    display: block;
+    margin: 0 auto;
+}
+
+.right .form form input {
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    height: 40px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.right .form form input {
+    margin-bottom: 4px;
+}
+
+button {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.right .form form button {
+    width: 100%;
+    color: white;
+    background: rgba(22, 163, 74, 0.992);
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.right .form .or {
+    height: 8px;
+    line-height: 16px;
+    font-size: 12px;
+    margin: 24px 0 32px 0;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.right .form .or span {
+    color: rgb(113, 113, 122);
+    background: rgb(255, 255, 255);
+    padding: 0 8px;
+}
+
+.right .form>button {
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    background: white;
+    border: 1px solid rgb(228, 228, 231);
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.toc-container {
+    padding: 0 32px;
+}
+
+.toc {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+    color: rgb(113, 113, 122);
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.toc a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.toc a:hover {
+    color: green;
+}
