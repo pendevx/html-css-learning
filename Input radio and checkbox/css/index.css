@@ -1,0 +1,34 @@
+body {
+    padding: 120px;
+    user-select: none;
+}
+
+form label {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-right: none;
+}
+
+form label:last-child {
+    border-right: 1px solid #ddd;
+}
+
+form label input {
+    display: none;
+}
+
+form label .radio {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+form label input:checked+.radio {
+    background: url("../tick-mark-sign-free-png.webp") no-repeat center/contain #f6f6f6;
+}
+
+form label input:checked~span:last-child {
+    color: green;
+}
