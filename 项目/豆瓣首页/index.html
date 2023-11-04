@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
+
 <body>
     <!-- header banner -->
     <header class="header clearfix">
@@ -45,11 +47,12 @@
             </div>
         </div>
     </header>
-    
+
     <main class="main">
-        <div class="accounts">
+        <section class="accounts">
             <div class="container">
-                <div class="entry input"> <!-- div.entry.input | div.entry.qr -->
+                <div class="entry input">
+                    <!-- div.entry.input | div.entry.qr -->
                     <div class="login">
                         <div class="qrcode">
                             <header>
@@ -59,7 +62,7 @@
                             <img src="./img/qr_login.png" alt="f">
                             <p>请打开豆瓣 App 扫一扫 或 <a>短信登录验证</a></p>
                         </div>
-                        
+
                         <!-- choose selected -->
                         <a href="" class="selected sms login-method">短信登录／注册</a>
                         <a href="" class="pwd login-method">密码登录</a>
@@ -67,7 +70,7 @@
 
                         <form class="accounts-form">
                             <a href="" class="toc">请仔细阅读 <span>豆瓣使用协议、豆瓣个人信息保护政策</span></a>
-                            
+
                             <div class="phone-container">
                                 <input class="phone" type="text" placeholder="手机号">
                                 <span>+86</span>
@@ -78,7 +81,8 @@
                                 <a class="get-code">获取验证码</a>
                             </div>
 
-                            <button type="submit" class="submit"> <!-- submit.active | submit -->
+                            <button type="submit" class="submit">
+                                <!-- submit.active | submit -->
                                 登录豆瓣
                             </button>
 
@@ -104,7 +108,112 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="hot clearfix">
+            <div class="sidebar">
+                <div class="ad-container">
+                    <img class="ad" src="./img/hot_ad.jpg" alt="">
+                    <span>广告</span>
+                </div>
+
+                <div class="hot-topics">
+                    <h2 class="title">
+                        热门话题 &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+                        <span>&nbsp;( <a href="">去话题广场</a> ) </span>
+                    </h2>
+
+                    <ul class="topics">
+                        <li class="topic">
+                            <a href="">2023豆瓣秋季摄影大赛</a>
+                            <span>热议</span>
+                            <aside>547.0万次浏览</aside>
+                        </li>
+                        <li class="topic">
+                            <a href="">看展记</a>
+                            <span>热议</span>
+                            <aside>1.2亿次浏览</aside>
+                        </li>
+                        <li class="topic active">
+                            <a href="">作为教师，你哪一刻想放弃教育事业？</a>
+                            <span>热议</span>
+                            <aside>3494.1万次浏览</aside>
+                        </li>
+                        <li class="topic">
+                            <a href="">我的“断亲”经历</a>
+                            <span>热议</span>
+                            <aside>30.6万次浏览</aside>
+                        </li>
+                        <li class="topic">
+                            <a href="">我身上有班味了</a>
+                            <span>热议</span>
+                            <aside>1.0万次浏览</aside>
+                        </li>
+                        <li class="topic">
+                            <a href="">我的流浪生活</a>
+                            <span>热议</span>
+                            <aside>7984次浏览</aside>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <main class="main">
+                <header class="title">
+                    <h2>热点内容 · · · · · ·</h2>
+                    <span>( <a href="">更多</a> )</span>
+                </header>
+
+                <div class="album">
+                    <div class="display-item">
+                        <a href="">
+                            <img class="image" src="./img/hot-1.webp" alt="">
+                        </a>
+                        <a href="">幻想出租屋。</a>
+                        <span class="album-size">143张照片</span>
+                    </div>
+
+                    <div class="display-item">
+                        <a href="">
+                            <img class="image" src="./img/hot-1.webp" alt="">
+                        </a>
+                        <a href="">幻想出租屋。</a>
+                        <span class="album-size">143张照片</span>
+                    </div>
+
+                    <div class="display-item">
+                        <a href="">
+                            <img class="image" src="./img/hot-1.webp" alt="">
+                        </a>
+                        <a href="">幻想出租屋。</a>
+                        <span class="album-size">143张照片</span>
+                    </div>
+
+                    <div class="display-item">
+                        <a href="">
+                            <img class="image" src="./img/hot-1.webp" alt="">
+                        </a>
+                        <a href="">幻想出租屋。</a>
+                        <span class="album-size">143张照片</span>
+                    </div>
+                </div>
+
+                <div class="notes">
+                    <a class="title" href="">根据真实案件改编的悬疑小说：死去的人，真的会为了复仇而活过来吗</a>
+                    <aside class="subtitle">豆瓣阅读的日记</aside>
+                    <p class="content-preview">
+                        我什么都没做，我只是睡了一觉，醒来后，五名舍友就变成了尸体。 桑文鹤的最新完结悬疑小说，《我们消失的那一年》。 内容简介 1996年，高中女生上官琪因遭受校园暴...
+                    </p>
+                    <ul>
+                        <li><a href="">媒介蒙太奇 之 观看奥运</a></li>
+                        <li><a href="">一名平凡读者的买书总结</a></li>
+                        <li><a href="">叶芝和他的拜占庭诗篇</a></li>
+                        <li><a href="">两个月108公里，业余游泳爱好者路在何方</a></li>
+                    </ul>
+                </div>
+            </main>
+        </section>
     </main>
 </body>
+
 </html>

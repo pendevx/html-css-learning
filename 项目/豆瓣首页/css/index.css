@@ -1,12 +1,18 @@
 @import url("./header.css");
 @import url("./login\ banner.css");
+@import url("./hot.css");
 
 body {
     font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 12px;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+
+a:link {
+    color: #37a;
 }
