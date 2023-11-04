@@ -1,0 +1,120 @@
+.header .title-container {
+    background: rgb(237, 244, 237);
+    padding: 7px 13px;
+}
+
+.header .title {
+    width: 102px;
+    height: 20px;
+    background: url("../img/logo.png") no-repeat 0 0/contain;
+}
+
+.header .title .page-title {
+    display: none;
+}
+
+.header .utils {
+    margin: 25px 411.5px;
+    width: 1080px;
+    height: 32.891px;
+    margin-top: 30px;
+}
+
+.header .utils > div {
+    display: inline-block;
+}
+
+.header .utils .site-name {
+    background: url("../img/sitename.png") no-repeat 0 0/contain;
+    width: 73px;
+    height: 24px;
+    margin: 4px 24px 0 0;
+}
+
+.header .utils .searchbar {
+    border: 1px solid #c3c3c3;
+    width: 272px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.header .utils .searchbar .searchbox {
+    position: relative;
+}
+
+.header .utils .searchbar .searchbox input {
+    width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+}
+
+.header .utils .searchbar .searchbox button {
+    background: url("../img/search_button.png") no-repeat center center;
+    width: 30px;
+    height: 30px;    
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header .utils .navbar {
+    float: right;
+    width: 514.75px;
+    height: 21px;
+    margin-top: 6px;
+}
+
+.header .utils .navbar .nav li {
+    display: inline-block;
+    margin-right: 13.5px;
+    width: 39.7px;
+    height: 20px;
+}
+
+.header .utils .navbar .nav li a {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    text-indent: -999999px;
+}
+
+.header .utils .navbar .nav li:nth-child(1) a {
+    background: url("../img/nav_options.png") no-repeat 0 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(2) a {
+    background: url("../img/nav_options.png") no-repeat -60px 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(3) a {
+    background: url("../img/nav_options.png") no-repeat -120px 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(4) a {
+    background: url("../img/nav_options.png") no-repeat -299px 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(5) a {
+    background: url("../img/nav_options.png") no-repeat -180px 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(6) a {
+    background: url("../img/nav_options_read.png") no-repeat 0 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(7) a {
+    background: url("../img/nav_options.png") no-repeat -241px 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(8) a {
+    background: url("../img/nav_options_time.png") no-repeat 0 0/cover;
+}
+
+.header .utils .navbar .nav li:nth-child(9) a {
+    width: 42px;
+    background: url("../img/nav_options.png") no-repeat -421px 0/cover;
+}
