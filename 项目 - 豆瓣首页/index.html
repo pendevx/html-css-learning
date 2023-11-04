@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆瓣</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <!-- header banner -->
+    <header class="header clearfix">
+        <div class="title-container">
+            <h1 class="title">
+                <span class="page-title">豆瓣</span>
+                <a href=""></a>
+            </h1>
+        </div>
+
+        <div class="utils">
+            <div class="site-name"></div>
+
+            <div class="searchbar">
+                <form class="searchbox">
+                    <input type="text" placeholder="书籍、电影、音乐、小组、小站、成员">
+                    <button type="submit"></button>
+                </form>
+            </div>
+
+            <div class="navbar">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="">读书</a></li>
+                        <li><a href="">电影</a></li>
+                        <li><a href="">音乐</a></li>
+                        <li><a href="">同城</a></li>
+                        <li><a href="">小组</a></li>
+                        <li><a href="">阅读</a></li>
+                        <li><a href="">FM</a></li>
+                        <li><a href="">时间</a></li>
+                        <li><a href="">豆品</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="accounts">
+            <div class="container">
+                <div class="entry input"> <!-- div.entry.input | div.entry.qr -->
+                    <div class="login">
+                        <div class="qrcode">
+                            <header>
+                                <a href="" class="">二维码登录</a>
+                                <div class="toggle"></div>
+                            </header>
+                            <img src="./img/qr_login.png" alt="f">
+                            <p>请打开豆瓣 App 扫一扫 或 <a>短信登录验证</a></p>
+                        </div>
+                        
+                        <!-- choose selected -->
+                        <a href="" class="selected sms login-method">短信登录／注册</a>
+                        <a href="" class="pwd login-method">密码登录</a>
+                        <div class="toggle"></div>
+
+                        <form class="accounts-form">
+                            <a href="" class="toc">请仔细阅读 <span>豆瓣使用协议、豆瓣个人信息保护政策</span></a>
+                            
+                            <div class="phone-container">
+                                <input class="phone" type="text" placeholder="手机号">
+                                <span>+86</span>
+                            </div>
+
+                            <div class="code-container">
+                                <input type="text" class="code" placeholder="验证码">
+                                <a class="get-code">获取验证码</a>
+                            </div>
+
+                            <button type="submit" class="submit"> <!-- submit.active | submit -->
+                                登录豆瓣
+                            </button>
+
+                            <a href="" class="code-trouble">收不到验证码</a>
+                        </form>
+
+                        <span class="third-party-methods">第三方登录: </span>
+                        <a href="" class="wechat third-party"></a>
+                        <a href="" class="sina third-party"></a>
+                    </div>
+                </div>
+
+                <div class="download">
+                    <h2>豆瓣<span>7.0</span></h2>
+                    <div class="download-buttons">
+                        <a href="" class="download-link">下载豆瓣 App</a>
+                        <span class="download-qr"></span>
+                        <div class="download-info">
+                            <img src="./img/download_qr_expand.png" alt="">
+                            <p>iOS / Android 扫码直接下载</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
