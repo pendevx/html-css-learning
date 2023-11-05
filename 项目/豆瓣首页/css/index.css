@@ -1,10 +1,13 @@
 @import url("./header.css");
 @import url("./login\ banner.css");
 @import url("./hot.css");
+@import url("./time.css");
+@import url("./movies.css");
 
 body {
     font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: 12px;
+    line-height: 19.44px;
 }
 
 .clearfix::after {
@@ -13,6 +16,50 @@ body {
     clear: both;
 }
 
+section {
+    margin-bottom: 30px;
+}
+
+section .container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+section:nth-child(2n - 1) {
+    padding: 40px 0 20px;
+    background: #f7f7f7;
+}
+
 a:link {
     color: #37a;
+}
+
+a {
+    color: #37a;
+    background: transparent;
+}
+
+a:hover {
+    background: #37a;
+    color: white;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f93;
+}
+
+header.title {
+    margin-bottom: 12px;
+}
+
+header.title h2 {
+    display: inline;
+    color: rgb(0, 119, 34);
+    font-size: 15px;
+}
+
+header.title span {
+    font-size: 12px;
 }

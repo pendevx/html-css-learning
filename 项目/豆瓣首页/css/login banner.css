@@ -1,12 +1,15 @@
-.accounts {
+.accounts a:hover {
+    background: transparent;
+}
+
+.main .accounts {
     background: url("../img/login_banner.jpg") no-repeat calc(50% - 305px) top/contain #edf4ed;
     height: 304px;
+    padding: 0;
 }
 
 .accounts > .container {
-    width: 950px;
     height: 304px;
-    margin: 0 auto;
     position: relative;
 }
 

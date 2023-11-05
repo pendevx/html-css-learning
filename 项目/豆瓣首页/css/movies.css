@@ -1,0 +1,143 @@
+.movies .sidebar {
+    float: left;
+}
+
+.movies .sidebar .title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.movies .sidebar ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 22.68px;
+    position: relative;
+}
+
+.movies .sidebar ul li.new::after {
+    content: "";
+    width: 17px;
+    height: 7px;
+    display: inline-block;
+    position: absolute;
+    background: url("../img/movies_new.gif") no-repeat;
+}
+
+.movies .sidebar {
+    margin-right: 20px;
+    width: 100px;
+}
+
+.movies .rankings {
+    float: right;
+    width: 265px;
+    margin-left: 30px;
+}
+
+.movies .rankings .title {
+    margin-bottom: 12px;
+    line-height: 22.5px;
+}
+
+.movies .rankings ol {
+    list-style: decimal inside;
+}
+
+.movies .rankings ol li {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 6px;
+}
+
+.movies .rankings ol li a {
+    margin-left: 5px;
+    line-height: 19.44px;
+}
+
+.movies .main {
+    overflow: hidden;
+}
+
+.movies .main ul {
+    text-align: center;
+}
+
+.movies .main ul li {
+    float: left;
+    width: 24.8%;
+    margin-bottom: 20px;
+}
+
+.movies .main ul li .image {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.movies .main ul li .poster {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.movies .main ul li .name-container {
+    width: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.45;
+}
+
+.movies .main ul li .name-container .movie-name {
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.movies .main ul li .name-container .movie-name:hover {
+    color: white;
+}
+
+.movies .main ul li .rating {
+    margin-bottom: 4px;
+}
+
+.movies .main ul li .rating .stars {
+    background: url("../img/rating-stars.png") no-repeat 0 -33px;
+    width: 55px;
+    height: 11px;
+    display: inline-block;
+}
+
+.movies .main ul li .rating .score {
+    margin-left: 4px;
+    color: #e09015;
+}
+
+.movies .main ul li .rating.unrated .stars {
+    background: none;
+}
+
+.movies .main ul li .rating.unrated .stars::before {
+    content: "暂无评论";
+    display: inline-block;
+}
+
+.movies .main ul li .rating.unrated .score {
+    display: none;
+}
+
+.movies .main ul li .buy {
+    background: #1c8bd0;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.movies .main ul li .buy:hover,
+.movies .main ul li .buy:active {
+    background: #047fcb;
+}
