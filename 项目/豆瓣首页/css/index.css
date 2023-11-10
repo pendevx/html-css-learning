@@ -3,6 +3,7 @@
 @import url("./hot.css");
 @import url("./time.css");
 @import url("./movies.css");
+@import url("./group.css");
 
 body {
     font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -28,6 +29,22 @@ section .container {
 section:nth-child(2n - 1) {
     padding: 40px 0 20px;
     background: #f7f7f7;
+}
+
+section .sidebar {
+    float: left;
+}
+
+section .sidebar .title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+section .sidebar ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 22.68px;
+    position: relative;
 }
 
 a:link {
