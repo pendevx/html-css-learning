@@ -137,4 +137,5 @@ section .left-menu ul li.new::after {
 .display-collection li .name-container {
     font-size: 13px;
     cursor: pointer;
+    margin-bottom: 4px;
 }

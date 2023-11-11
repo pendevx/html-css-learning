@@ -24,11 +24,11 @@
 
 .movies .main ul li .name-container {
     width: 100px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-bottom: 4px;
     line-height: 1.45;
 }
 
