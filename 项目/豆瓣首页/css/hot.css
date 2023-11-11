@@ -11,25 +11,25 @@
     margin: -10px 0 0 -10px;
 }
 
-.hot .sidebar {
+.hot .right-menu {
     float: right;
     width: 265px;
     margin-left: 30px;
 }
 
-.hot .sidebar .ad-container {
+.hot .right-menu .ad-container {
     position: relative;
     width: 250px;
     margin: 10px 0;
 }
 
-.hot .sidebar .ad-container .ad {
+.hot .right-menu .ad-container .ad {
     width: 100%;
     margin: 10px 0;
     display: block;
 }
 
-.hot .sidebar .ad-container span {
+.hot .right-menu .ad-container span {
     background: rgba(0, 0, 0, 0.3);
     position: absolute;
     right: 0;
@@ -39,33 +39,33 @@
     padding: 4px;
 }
 
-.hot .sidebar .hot-topics {
+.hot .right-menu .hot-topics {
     margin-bottom: 30px;
 }
 
-.hot .sidebar .hot-topics .title {
+.hot .right-menu .hot-topics .title {
     color: rgb(0, 119, 34);
     font-size: 15px;
     line-height: 22.5px;
 }
 
-.hot .sidebar .hot-topics .title span {
+.hot .right-menu .hot-topics .title span {
     line-height: 18px;
     font-size: 12px;
     color: rgb(102, 102, 102);
 }
 
-.hot .sidebar .hot-topics .topics .topic {
+.hot .right-menu .hot-topics .topics .topic {
     margin: 10px 0 15px 0;
 }
 
-.hot .sidebar .hot-topics .topics .topic a {
+.hot .right-menu .hot-topics .topics .topic a {
     font-size: 14px;
     display: inline-block;
     line-height: 1.3;
 }
 
-.hot .sidebar .hot-topics .topics .topic aside {
+.hot .right-menu .hot-topics .topics .topic aside {
     font-size: 13px;
     line-height: 13px;
     color: rgb(170, 170, 170);
@@ -73,11 +73,11 @@
     margin-top: 6px;
 }
 
-.hot .sidebar .hot-topics .topics .topic a+span {
+.hot .right-menu .hot-topics .topics .topic a+span {
     display: none;
 }
 
-.hot .sidebar .hot-topics .topics .topic.active a+span {
+.hot .right-menu .hot-topics .topics .topic.active a+span {
     display: inline-block;
     background-color: #FFE7E7;
     color: #B4000E;

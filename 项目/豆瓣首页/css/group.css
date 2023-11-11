@@ -1,3 +1,61 @@
+.group a {
+    color: #017a85;
+}
+
 .group .sidebar a {
     color: #007982;
+}
+
+.group .grouped {
+    float: right;
+    width: 265px;
+}
+
+.group .grouped > ul > li {
+    margin-bottom: 10px;
+}
+
+.group .grouped header.title {
+    line-height: 22.5px;
+    height: 22.5px;
+}
+
+.group .grouped .classification .title {
+    margin-bottom: 2px;
+}
+
+.group .grouped .classification .title a {
+    color: black;
+    font-size: 14px;
+    line-height: 1.62;
+}
+
+.group .grouped .classification ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.group .grouped .classification ul li a {
+    color: #017a85;
+}
+
+.group .grouped .classification ul li a:hover {
+    color: white;
+}
+
+.group .main .content ul {
+    margin-left: -30px;
+}
+
+.group .main .content li {
+    width: 248px;
+    margin: 30px 0 10px 30px;
+    color: #999;
+    float: left;
+}
+
+.group .main .content .poster img {
+    float: left;
+    width: 48px;
+    margin-right: 15px;
 }

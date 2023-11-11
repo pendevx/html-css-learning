@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 12px;
+    line-height: 19.44px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section .container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* give every odd number child a darker background */
+section:nth-child(2n - 1) {
+    padding: 40px 0 20px;
+    background: #f7f7f7;
+}
+
+section .sidebar,
+section .left-menu {
+    float: left;
+}
+
+section .right-menu {
+    float: right;
+}
+
+section .left-menu .title {
+    margin-bottom: 12px;
+}
+
+section .left-menu .title a {
+    font-size: 24px;
+    line-height: 22.5px;
+}
+
+section .left-menu ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 22.68px;
+    position: relative;
+}
+
+section .left-menu ul li.has-icon a:last-child {
+    font-size: 12px;
+}
+
+a:link {
+    color: #37a;
+}
+
+a {
+    color: #37a;
+    background: transparent;
+}
+
+a:hover {
+    background: #37a;
+    color: white;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f93;
+}
+
+header.title {
+    margin-bottom: 12px;
+}
+
+header.title h2 {
+    display: inline;
+    color: rgb(0, 119, 34);
+    font-size: 15px;
+}
+
+header.title span {
+    font-size: 12px;
+}
+
+section .left-menu {
+    margin-right: 20px;
+    width: 100px;
+}
+
+section .right-menu {
+    width: 265px;
+    margin-left: 30px;
+}
+
+section main.main {
+    overflow: hidden;
+}
+
+section .left-menu ul li.new::after {
+    content: "";
+    width: 17px;
+    height: 7px;
+    display: inline-block;
+    position: absolute;
+    background: url("../img/movies_new.gif") no-repeat;
+}
+
+
+/* display collection: the place where there is poster and stuff displayed in a row */
+.display-collection {
+    text-align: center;
+}
+
+.display-collection li {
+    float: left;
+    width: 24.8%;
+    margin-bottom: 20px;
+}
+
+.display-collection li .image {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.display-collection li .poster {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.display-collection li .name-container {
+    font-size: 13px;
+    cursor: pointer;
+}
