@@ -1,0 +1,56 @@
+.music a {
+    color: #555d53;
+}
+
+.music a:hover {
+    color: white;
+}
+
+.music .right-menu .authors-list {
+    list-style: decimal;
+}
+
+.music .right-menu .authors-list .author-wrapper {
+    overflow: hidden;
+}
+
+.music .right-menu .authors-list .author {
+    margin-bottom: 16px;
+}
+
+.music .right-menu .authors-list .author-details,
+.music .right-menu .authors-list .followers {
+    color: #999;
+}
+
+.music .right-menu .authors-list .author .author-img {
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.music .right-menu .authors-list .author .author-img img {
+    vertical-align: top;
+}
+
+.music .right-menu .authors-list .author .album-name {
+    margin-bottom: 4px;
+}
+
+.music .right-menu .authors-list .author .author-details {
+    overflow: hidden;
+}
+
+.music .main .content ul li {
+    display: inline-block;
+    width: 24.5%;
+}
+
+.music .main .content .wrapper {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.music .main .content .wrapper .author-img img {
+    width: 80px;
+}

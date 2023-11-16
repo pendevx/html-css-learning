@@ -1,0 +1,49 @@
+footer.footer .container {
+    border-top: 1px dashed #dcdcdc;
+    padding: 14px 0;
+    color: #999;
+}
+
+footer.footer .company-rights li {
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+footer.footer .company-rights li:last-child {
+    border-right: none;
+}
+
+footer.footer .company-rights li:first-child {
+    padding-left: 0;
+}
+
+footer.footer .complaints img {
+    height: 16px;
+}
+
+footer.footer .china-security {
+    vertical-align: middle;
+}
+
+footer.footer .china-security img {
+    width: 15px;
+}
+
+footer.footer .extra {
+    float: right;
+}
+
+.footer.footer .extra li {
+    display: inline-block;
+}
+
+.footer.footer .extra li::after {
+    content: " · ";
+    display: inline;
+}
+
+.footer.footer .extra li:last-child::after {
+    content: "";
+}

@@ -6,40 +6,17 @@
     color: #007982;
 }
 
-.group .grouped {
-    float: right;
-    width: 265px;
-}
 
-.group .grouped > ul > li {
-    margin-bottom: 10px;
-}
-
-.group .grouped header.title {
-    line-height: 22.5px;
-    height: 22.5px;
-}
-
-.group .grouped .classification .title {
-    margin-bottom: 2px;
-}
-
-.group .grouped .classification .title a {
+/* specify .arrow-group .classification colors */
+.group .arrow-group .classification .title a {
     color: black;
-    font-size: 14px;
-    line-height: 1.62;
 }
 
-.group .grouped .classification ul li {
-    display: inline-block;
-    margin-right: 10px;
+.group .arrow-group .classification .title a:hover {
+    color: white;
 }
 
-.group .grouped .classification ul li a {
-    color: #017a85;
-}
-
-.group .grouped .classification ul li a:hover {
+.group .arrow-group .classification ul li a:hover {
     color: white;
 }
 

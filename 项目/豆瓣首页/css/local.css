@@ -1,0 +1,58 @@
+.local a {
+    color: #643;
+}
+
+.local a:hover {
+    color: white;
+}
+
+.local .left-menu .title a {
+    color: #ec5303;
+}
+
+.local .left-menu .title a:hover {
+    color: white;
+}
+
+.local .arrow-group .classification .title a {
+    color: black;
+}
+
+.local .arrow-group .classification .title a:hover {
+    color: white;
+}
+
+.local .arrow-group .classification ul li a:hover {
+    color: white;
+}
+
+.local .main .content ul {
+    margin-left: -20px;
+}
+
+.local .main .content ul li {
+    width: 248px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.local .main .content .poster {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.local .main .content .poster img {
+    display: block;
+}
+
+.local .main .content .description {
+    overflow: hidden;
+    color: #666;
+}
+
+.local .main .content .description .title {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
